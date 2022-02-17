@@ -1,4 +1,4 @@
-# What Brings More Revenue
+# What Makes a Video Game Successful
 
 ## Data:
 
@@ -16,7 +16,7 @@
 
 ## Goal:
 
-The ultimate goal stated for the project is, based on the last year sales data, to determine the most successful platforms/genres/games and make recommendations with regard to the hotspots and the target audience of the next year's advertising campaign.
+The ultimate goal stated for the project is, based on the previous years sales data, to determine the most successful platforms/genres/games and make recommendations with regard to the hotspots and the target audience of the next year's advertising campaign.
 
 ## Libraries used:
 
