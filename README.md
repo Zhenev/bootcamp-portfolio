@@ -3,6 +3,7 @@ This is for keeping my mind on blue-sky thinking.
 
 | # | Topic                |Source         | Idea | Libraries used|
 | :- |:------------------:|:------------:| :------------|:------|
+| 6 | Data Collection and Storage |yPracticum | The ultimate goal stated for the project is, based on the weather data from an open source and competitors' data on taxi rides, to determine the influence of weather conditions on the demand for taxi rides|*requests*, *BeautifulSoup*, *json*, *pandas*, *matplotlib.pyplot*, *scipy.stats*, *seaborn*|
 | 5 | Integrated project |yPracticum | The goal stated for the project is to identify patterns that determine whether a game is going to succeed or not. This will allow the company to spot potential winners and plan an advertising campaign|*pandas*, *matplotlib.pyplot*, *scipy.stats*, *seaborn*, *sklearn.neighbors*|
 | 4 | SDA 2 |yPracticum | A telecom operator offers its clients two prepaid plans; the goal of the project is to find which one of the plans brings in more revenue, in order the commercial department could adjust the advertising budget|*pandas*, *matplotlib.pyplot*, *scipy.stats*, *seaborn*|
 | 3 | SDA 1 |yPracticum | The ultimate goal stated for the project is to determine which factors influence the price of a vehicle; i.e. to reveal sound assumptions with regard to cars' characteristics which have the most impact the price of a particular vehicle|*pandas*, *matplotlib.pyplot*, *scipy.stats*, *seaborn*|
