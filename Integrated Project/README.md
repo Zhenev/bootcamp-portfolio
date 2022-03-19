@@ -22,9 +22,9 @@ The ultimate goal stated for the project is, based on the previous years sales d
 
 pandas | 
 matplotlib.pyplot |
-scipy.stats
-seaborn
-scipy.neighbors
+scipy.stats |
+seaborn |
+scipy.neighbors |
 
 ## Contents
 
