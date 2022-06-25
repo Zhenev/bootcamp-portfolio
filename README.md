@@ -3,6 +3,7 @@ This is for keeping my mind on blue-sky thinking.
 
 | # | Topic                |Source         | Idea | Libraries/Tools used|
 | :- |:------------------:|:------------:| :------------|:------|
+| 15 | Final Project |yPracticum DA | Investigate how much effective is the loyalty program in expanding the total customer value of existing customers and find ways to boost its effectiveness. | *numpy*, *pandas*, *matplotlib.pyplot*, *seaborn*, *plotly*, *scipy.stats*, *math* |
 | 14 | Final Project - SQL |yPracticum DA | I have received an analytical task from an aspiring book reading app to analyse book reading preferences and to make recommendations for their future value proposition. | *sqlalchemy*, *pandas* |
 | 13 | Final Project - A/B testing |yPracticum DA | I have received an analytical task from an international online store: analyze the results of an A/B test and evaluate whether it was carried correctly. | *numpy*, *pandas*, *matplotlib.pyplot*, *seaborn*, *plotly*, *scipy.stats*, *math* |
 | 12 | Forecasts and Predictions |yPracticum DA | I am a data analyst at a gym chain called Model Fitness. We are developing a customer retention strategy. To fight churn, Model Fitness has digitized a number of its customer profiles. My task is to analyze them and come up with a customer retention strategy.| *numpy*, *pandas*, *matplotlib.pyplot*, *scipy.stats*, *seaborn*, *sklearn.preprocessing*, *sklearn.model_selection*, *sklearn.linear_model*, *sklearn.ensemble*, *sklearn.metrics*, *sklearn.cluster*|
