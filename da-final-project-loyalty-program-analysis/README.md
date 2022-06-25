@@ -19,7 +19,7 @@ There is additional file, `product_codes_us.csv`, which contains:
 
 ## Goal:
 
-The initial goal of the project was stated "to analyze the loyalty program"; after the decomposition we have clarified the goal and defined it as "to analyze how much effective is the loyalty program in expanding the total customer value of existing customer base and find ways to boost its effectiveness.
+The initial goal of the project was stated "to analyze the loyalty program"; after the decomposition we have clarified the goal and defined it as "to analyze how much effective is the loyalty program in expanding the total customer value of existing customer base and find ways to boost its effectiveness".
 
 ## Libraries used:
 
