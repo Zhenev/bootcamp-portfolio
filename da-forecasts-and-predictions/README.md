@@ -32,9 +32,11 @@ pandas |
 numpy |
 matplotlib.pyplot |
 seaborn |
+plotly |
 sklearn |
 scipy |
 
+NOTE: make sure the Jupyter Notebook is trusted to see the interactive plots.
 
 ## Contents
 
