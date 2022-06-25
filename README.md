@@ -3,6 +3,7 @@ This is for keeping my mind on blue-sky thinking.
 
 | # | Topic                |Source         | Idea | Libraries used|
 | :- |:------------------:|:------------:| :------------|:------|
+| 9 | Telling a Story with Data |yPracticum DA | Me and my partners decided to open a small robot-run cafe in Los Angeles, our investors are interested to know whether the market conditions will allow scaling our success when the novelty of robot waiters wears off, so we prepared a market research.| *numpy*, *pandas*, *matplotlib.pyplot*, *scipy.stats*, *seaborn*, *math*, *cufflinks*, *plotly*|
 | 8 | Making Business Decisions |yPracticum DA | Together with the marketing department, we compiled a list of hypotheses that may help to boost revenue. I need to prioritize these hypotheses and then to analyze the results.| *numpy*, *pandas*, *matplotlib.pyplot*, *scipy.stats*, *seaborn*, *math*|
 | 7 | Business Analytics |yPracticum DA | The task at hand is to make recommendations and help optimize marketing expenses for an app| *numpy*, *pandas*, *matplotlib.pyplot*, *scipy.stats*, *seaborn*|
 | 6 | Data Collection and Storage |yPracticum DA | The ultimate goal stated for the project is, based on the weather data from an open source and competitors' data on taxi rides, to determine the influence of weather conditions on the demand for taxi rides|*requests*, *BeautifulSoup*, *json*, *pandas*, *matplotlib.pyplot*, *scipy.stats*, *seaborn*|
