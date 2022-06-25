@@ -31,6 +31,8 @@ math |
 datetime |
 plotly |
 
+NOTE: make sure the Jupyter Notebook is trusted to see the interactive plots.
+
 ## Contents
 
 * Decomposition
