@@ -31,10 +31,13 @@ In technical terms, we should build a model for churn prediction with the maximu
 pandas | 
 numpy |
 matplotlib.pyplot |
+plotly.express |
 seaborn |
 sklearn |
 scipy |
 optuna
+
+Note: the notebook should be trusted to allow correct display of plots.
 
 ## Contents
 
