@@ -28,3 +28,7 @@ Tableau |
 * Test drive
 * Recommendations
 * Link
+
+## Summary
+
+The deliverable of this project was a Tableau dashboard prototype. Attached is a presentation which walks the reader through the prototype development process and showcases the dashboard.
