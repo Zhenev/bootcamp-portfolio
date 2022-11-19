@@ -63,7 +63,7 @@ After the initial investigation of the data and pre-rpocessing, we were left wit
 The initial analysis of the conversion rates looked ambiguous, different options of funnels resulted in different numbers, including more purchase events than product carts; the basic funnel resulted in approximately 13% conversion from `login` to `purchase`; we applied the **z-criteria** to compare overall conversions of the two groups and the result **showed that the two distributions are essentially identical**, except for the proportions betweem `login` to `product_page` count. Then, we got to a conclusion that when users who registered before Dec 15, 2020, i.e. during the first week of the test, are filtered, the distrbutions of events by dates look more coherent; thus, we ended up with investigating the results for two subsets, both for unfiltered and filtered data.
 
 Due to the caveats of the A/B test setting, the test, although resulted in some steady and statistically significant results for unfiltered data, showed only partially significant for filtered data:
-* 10% increase in overall conversion from `product_pag` to `purchase` for group B for unfiltered data.
+* 10% increase in overall conversion from `product_page` to `purchase` for group B for unfiltered data.
 * 13% lower average purchase size for those users from group B who placed orders compared to group A for unfiltered data; nevertheless, due to better conversion, group B had relatively higher sales per user than group A.
 * Statistically insignificant increase in the overall conversion rate from `product_page` to `puchase` for group B on filtered data.
 
@@ -77,6 +77,7 @@ Initially, about 6000 declared test participants were expecte, while the initial
 * All the purchase events have money amounts assigned to them. Interestingly, the amounts have a discrete distribution, when appr. 2% of the purchase volumes equal USD 499.99, another 9% are of USD 99.99; since it did not look like some random amount, we have left it as is and will consider to be something to take into consideration later down the analysis process.
 * Although we were updated that the purpose of the test was testing changes related to the introduction of an improved recommendation system, the `ab_participants` dataset covers additional test, called `interface_eu_test`.
 * There were 887 users participated in two tests; since we did not have any prelimenary information on the dates the `interface_eu_test` test was run, to move forward we had to drop those `user_id`'s alltogether, in addition to dropping those who participated in the EU interface test; thus, we were left with 2788 users who participated in the recommender system A/B test, well below the initially declared expected number of test participants: 6000.
+
 We proposed cross-checking the datase for possible artifacts with data engineers on the team.
 
 ### Test setting
@@ -90,4 +91,4 @@ The following data exploration of the test setting showed:
 * When average count of events per user is checked, the user behaviour seems to remain stable over time, so given that we should study the conversion, we can tolerate the differences in the user intake or filter out events by the date only;
 * When only events before Dec 15, 2020 are filtered, we are left with 1799 participants in group A and 552 participants in group B (9% less);
 
-Eventually, we have decided to leave the groups as is for the basic funnel analysis and use filtered by users data for cumulative metrics. With regard to the details parameter, there were no meaningful differences for the groups; we have left it as is, considering the cases with the value USD 499.99 as another peculiarity of the dataset.
+Eventually, we decided to leave the groups as is for the basic funnel analysis and use filtered by users data for cumulative metrics. With regard to the details parameter, there were no meaningful differences for the groups; we have left it as is, considering the cases with the value USD 499.99 as another peculiarity of the dataset.
