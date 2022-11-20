@@ -86,9 +86,7 @@ To better understand the quality of the models, we performed calculations for th
 2. The actual total of those wells chosen in case 1.
 3. When 200 largest wells are chosen by the actual value of the `product` variable out of 500 randomly sampled data points
 
-The sampling was performed from the same validation subset for the target variable.
-
-By performing this comparison, we learned that the linear regression model for the third region resulted in overestimated values and the one for the second region resulted in underestimated values; the ranking of the regions, if the actual reserve volumes are considered for the wells with highest predictions, changes, leaving us with the second region being the best candidate.
+Preliminary estimates, based on the predicted volumes of reserves for a random set of 500 wells from the test subset, suggested that the investments should be channeled into the first region, though the comaprison with the actual reserves in the chosen 200 wells and the reserves in the 200 wells, which actually were the largest among those 500, showed that this result was shallow. By performing this comparison, we learned that the linear regression model for the third region overestimated values and the one for the second region underestimated values: the ranking of the regions changes, if the actual reserve volumes are considered for the wells with highest predictions, leaving us with the second region being the best candidate.
 
 ### Potential profit distribution analysis
 
