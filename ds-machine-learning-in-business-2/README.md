@@ -12,7 +12,7 @@ In addition, the documentation to the data mentioned the following information:
 
 ## Goal:
 
-In this project, we build a model to predict amount of gold recovered from gold ore.
+In this project, we build a model to predict amount of gold recovered from gold ore. The model is optimized by a custom, business need driven, model quality metric, a weightes sMAPE.
 
 ## Libraries used:
 
