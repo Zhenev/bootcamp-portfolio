@@ -1,8 +1,9 @@
-# portfolio-in-progress
+# portfolio_in_progress
 This is for keeping my mind on blue-sky thinking.
 
 | # | Topic                |Source         | Idea | Libraries/Tools used|
 | :- |:------------------:|:------------:| :------------|:------|
+| 19 | [ML in Business 2](https://github.com/Zhenev/portfolio-in-progress/tree/main/ds-machine-learning-in-business-2) |yPracticum DS | This project demonstartes building a model based on a custom model quality metric. | *numpy*, *pandas*, *matplotlib.pyplot*, *plotly.express*, *seaborn*, *re*, *sklearn* |
 | 18 | [ML in Business](https://github.com/Zhenev/portfolio-in-progress/tree/main/ds-machine-learning-in-business) |yPracticum DS | This project demonstartes a simple model of oil well reserves prediction and applying the bootstraping technique to assess the risks and confidence level of the profit estimate. | *numpy*, *pandas*, *matplotlib.pyplot*, *plotly.express*, *seaborn*, *sklearn* |
 | 17 | [Supervised Learning](https://github.com/Zhenev/portfolio-in-progress/tree/main/ds-intro-into-supervised-learning) |yPracticum DS | In this project we need to predict whether a customer will leave a bank soon based on clients’ past behavior and termination of contracts. | *numpy*, *pandas*, *matplotlib.pyplot*, *plotly.express*, *seaborn*, *sklearn*, *optuna* |
 | 16 | [Intro to ML](https://github.com/Zhenev/portfolio-in-progress/tree/main/ds-intro-to-ml) |yPracticum DS | In this project we develop a model that would analyze subscribers' behavior and recommend one of a mobile carrier new plans. | *numpy*, *pandas*, *matplotlib.pyplot*, *seaborn*, *sklearn.preprocessing*, *sklearn.model_selection*, *sklearn.linear_model*, *sklearn.ensemble*, *sklearn.metrics* |
