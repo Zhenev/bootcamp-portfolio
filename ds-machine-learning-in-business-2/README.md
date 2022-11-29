@@ -66,7 +66,7 @@ The modelling part included the following steps:
 2. We compared three linear regression models, including basic versions of Lasso and Ridge, and a random forest model; we applied cross-validation to score the models; in all models we used `k=10` cross-validation subsets. We also applied RandomizedSearchCV to finetune the hyperparameters of the Random Forest model, although the result was still unacceptable.
 3. We compared the results received on the clean train subset and on the raw train dataset, when the observations which exhibit inconsistent dynamics of the total concentrations along the purification process are kept; the final model was just a Linear Regression on the raw dataset, although the test weighted sMAPE score of that model was 0.3% lower than that of a dummy model.
 
-We can made the overall conclusion that building a more complex model, which will also be constantly updated with new data, could be a better option, since the production conditions seem to be constantly changing. Additionaly, the weights in the scoring function can be adjusted.
+We made a conclusion that building a more complex model, which will also be constantly updated with new data, could be a better option, since the production conditions seem to be constantly changing. Additionaly, the weights in the scoring function can be adjusted.
 
 ## Challenges
 
