@@ -1,4 +1,4 @@
-# Looking for  Granes of Gold
+# Looking for  Grains of Gold
 
 ## Data:
 
