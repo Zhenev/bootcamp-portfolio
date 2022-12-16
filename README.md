@@ -5,6 +5,7 @@ This is for keeping my mind on blue-sky thinking.
 
 | # | Topic                |Source         | Idea | Libraries/Tools used|
 | :- |:------------------:|:------------:| :------------|:------|
+| 24 | [Intro to CV](https://github.com/Zhenev/portfolio-in-progress/tree/main/ds-intro-to-computer-vision) |Practicum DS | In this project, we demonstrate a simple model evaluating the age from a picture, while running it on an external GPU platform | *pandas*, *matplotlib*, *keras*, *inspect*|
 | 23 | [ML for Texts](https://github.com/Zhenev/portfolio-in-progress/tree/main/ds-ml-for-texts) |Practicum DS | In this project, we apply different vectorization techniques to build a classification model for detecting negative reviews. | *numpy*, *pandas*, *matplotlib*, *math*, *re*,  *sklearn*, *nltk*, *spacy*, *lightgbm*, *torch*, *transformers*, *tqdm*|
 | 22 | [Time Series](https://github.com/Zhenev/portfolio-in-progress/tree/main/ds-time-series) |Practicum DS | In this project, we build a predictive model for a time series, while studying and tackling the issues of heteroscedasticity and autocorrelation. | *numpy*, *pandas*, *seaborn*, *plotly*, *time*, *sklearn*, *scipy*, *statsmodels*, *arch* |
 | 21 | [Numerical Methods](https://github.com/Zhenev/portfolio-in-progress/tree/main/ds-numerical-methods) |Practicum DS | In this project, we study the balance between quality, speed and time required to train a model of predicting the car price. | *numpy*, *pandas*, *seaborn*, *plotly*, *time*, *sklearn*, *scipy*, *lightgbm*, *catboost*, *xgboost* |
