@@ -15,7 +15,8 @@ Building a model to evaluate the age of a supermarket client from his / her pict
 
 pandas | 
 matplotlib | 
-keras
+keras |
+inspect
 
 ## Contents
 
