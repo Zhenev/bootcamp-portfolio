@@ -122,6 +122,8 @@ The UMAP exploration resulted in two conclusions:
 - the "tuned" feature dataset (see paragraph 4 above) with filled missing values comprises a more prominent option.
 - a three-class model will possibly bring good results.
 
+![image](https://user-images.githubusercontent.com/78222587/208249247-b5c3b65d-778e-4806-85c5-c1634a2940d9.png)
+
 In what followed, based on the "tuned" feature set, we constructed:
 - 2 additional neural networks for the two-class classification case, which resulted in lower validation `roc_auc` score than the `keras` implementation of logistic regression.
 - a simple three-class neural network; the initial idea was to demonstrate the potential, while actually, even this simple model, harvested a good result in term of `roc_auc` score, and we decided to pic it as the final model.
