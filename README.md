@@ -1,6 +1,5 @@
 [![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-no-action.svg)](https://github.com/vshymanskyy/StandWithUkraine)
 
-# portfolio_in_progress
 This is for keeping my mind on blue-sky thinking.
 
 | # | Topic                |Source         | Idea | Libraries/Tools used|
